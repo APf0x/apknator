@@ -18,7 +18,7 @@ var updateCmd = &cobra.Command{
 		v := semver.MustParse(currentVersion)
 		selfupdate.EnableLog()
 
-		latest, err := selfupdate.UpdateSelf(v, "apf0x/android-apk-wrapper")
+		latest, err := selfupdate.UpdateSelf(v, "apf0x/apknator")
 		if err != nil {
 			fmt.Printf("Binary update failed: %v\n", err)
 			os.Exit(1)
