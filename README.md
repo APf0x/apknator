@@ -1,5 +1,4 @@
 # I have moved to codeberg this project is here only because self update cannot handle the codeberg release functionality yet.
-## "the code works in my mind but not on my computer"
 
 > "Don't be evil" — Google
 
