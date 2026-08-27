@@ -6,16 +6,33 @@ Google's motto was originally "Don't be evil," but in 2018 they decided to remov
 
 For years, Android developers have had to put up with Google's invasive telemetry and absurd user agreements that essentially require selling your soul just to use their Android developer IDE. Today that ends with **apknator**, I called it that because it sounds cool. The tool's main purpose is to compile and build `.apk` files and sign them. This is version 1, so I haven't added a distribution flag signer; it was too much work for a prototype.
 
-That's essentially it. Now the actual tutorial on how this tool works is written not by me, but by an LLM, because I absolutely hate writing documentation. Before we dive into the simple mechanics behind APKs, I'd like to quote Bulgarian singer GALENA:
 
-> Ask cha-cha-cha ChatGPT,  
-> check how much I love you.  
-> Ask cha-cha-cha ChatGPT,  
-> find out if I can live without you.
-> - chatgpt(GALENA)
+# How to use
 
-This is in honor of ChatGPT and other LLMs for taking away my one true passion — coding — and turning it into a mess. 
-The job market became so terrible that I had to abandon my dream of a bachelor's degree in informatics and instead pursue electrical engineering, a choice that makes me cry at night. 
-I should have been a programmer and gone to Unito, but not everything goes our way. Womp womp to myself I'll cry over it and move on(i wont).
+the basic loop is very simple, you need to run 6 commands to run your first application on an android phone assuming you have installed the discribution.
 
-I would have loved to study architecture.
+fist step is renaming the `ap_linux_amd64` to `ap`
+
+next you run the following commands blindly and trust me.
+
+first you make ap a cli command
+
+`sudo mv ap /usr/local/bin/`
+
+here we download the needed dependencies in ~/android-apk
+
+`ap download`
+
+we initializ the template and get into it
+
+`ap template`
+
+`cd my-app`
+
+we compile the java code and it spits out an apk
+
+`ap build`
+
+for this step you need an android phone and you need it to be connected to your pc with developer mode turned on, and allow usb app downloadig
+
+`adb install dist/unsigned_base-aligned-debugSigned.apk`
