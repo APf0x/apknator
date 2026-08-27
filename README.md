@@ -12,6 +12,7 @@ That's essentially it. Now the actual tutorial on how this tool works is written
 > check how much I love you.  
 > Ask cha-cha-cha ChatGPT,  
 > find out if I can live without you.
+> - chatgpt(GALENA)
 
 This is in honor of ChatGPT and other LLMs for taking away my one true passion — coding — and turning it into a mess. 
 The job market became so terrible that I had to abandon my dream of a bachelor's degree in informatics and instead pursue electrical engineering, a choice that makes me cry at night. 
