@@ -1,3 +1,5 @@
+# Disclaimer i have bridged to codeberg i use github for this project only because of how simple it is to maintain the update function and its just more simple to organize everything until i write a codeberg api updater from scratch
+
 > "Don't be evil" — Google
 
 Google's motto was originally "Don't be evil," but in 2018 they decided to remove it. Before doing so, 
